@@ -1,6 +1,8 @@
 #include<iostream>
 
 using namespace std;
+template<class type>
+void mySwap(type &,type &); 
 
 int main(){
 	int x, y;
@@ -29,4 +31,11 @@ int main(){
 
 	return 0;
 }
+template<class dype>
+void mySwap(dype &x,dype &y){
+      dype a;
+      a=x;
+      x=y;
+      y=a;
 
+}
